@@ -29,6 +29,7 @@ go to > supabase > functions > profile > students > .env
 ```sh
 SUPABASE_URL=
 SUPABASE_KEY=
+```
 
 go to > .env
 ```sh
@@ -48,16 +49,10 @@ npm run dev
 npm run build
 ```
 
-### Run Unit Tests with [Jest](https://jestjs.io/)
+### Run Unit Tests and E2E Test with [Jest](https://jestjs.io/)
 
 ```sh
 npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm test:e2e:dev
 ```
 
 ### Run Linting
